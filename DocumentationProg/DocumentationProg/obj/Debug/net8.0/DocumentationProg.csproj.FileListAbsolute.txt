@@ -1,0 +1,15 @@
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\bin\Debug\net8.0\DocumentationProg.exe
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\bin\Debug\net8.0\DocumentationProg.deps.json
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\bin\Debug\net8.0\DocumentationProg.runtimeconfig.json
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\bin\Debug\net8.0\DocumentationProg.dll
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\bin\Debug\net8.0\DocumentationProg.pdb
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.AssemblyInfoInputs.cache
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.AssemblyInfo.cs
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.csproj.CoreCompileInputs.cache
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.sourcelink.json
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.dll
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\refint\DocumentationProg.dll
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.pdb
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\DocumentationProg.genruntimeconfig.cache
+C:\Users\Mattis.lfrnc\Documents\M320\DocumentationProg\DocumentationProg\obj\Debug\net8.0\ref\DocumentationProg.dll
