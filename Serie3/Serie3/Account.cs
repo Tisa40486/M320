@@ -4,12 +4,23 @@
     {
         private int _numberAccount;
         private decimal _balance;
+
+        public int NumberAccount
+        {
+            get => _numberAccount;
+        }
+        public decimal Balance
+        {
+            get => _balance;
+        }
+
         public Account(int numberAccount, decimal balance)
         {
             _numberAccount = numberAccount;
             _balance = balance;
         }
 
+        
 
         /// <summary>
         /// Add Money to the count if the amount is higher than zero.
@@ -17,6 +28,7 @@
         /// <param name="amount">int represent Amount</param>
         public void Deposer(decimal amount)
         {
+
             if (amount > 0)
             {
                 _balance += amount;
