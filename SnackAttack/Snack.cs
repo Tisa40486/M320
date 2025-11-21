@@ -3,10 +3,16 @@
     public class Snack
     {
         private int _taille;
-       
-        public Snack(int taille)
+
+        
+        public string Name;
+
+        public int Taille { get => _taille; set => _taille = value; }
+
+        public Snack(int taille, string name)
         {
-            _taille = taille;
+            Taille = taille;
+            Name = name;
         }
 
         public void Afficher()
@@ -16,18 +22,20 @@
             string bodySnake = "";
             string snack = "";
          
-            for (int i = 0; i < _taille; i++)
+            for (int i = 0; i < Taille; i++)
             {
                 bodySnake += "#";
             }
 
             snack = tailSnake + bodySnake + headSnake;
 
-            Console.WriteLine(snack);
+            Console.WriteLine($"{Name} -> {snack}");
         }
+
         public void Attaquer(Snack snack, int degats)
         {
-            snack._taille = -degats;
+            Console.WriteLine($"{snack.Name} a etait attaquer ({snack.Taille} - {degats})");
+            snack.Taille -= degats;
         }
 
     }
