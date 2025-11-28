@@ -36,41 +36,43 @@
             // lblAnimal
             // 
             lblAnimal.AutoSize = true;
-            lblAnimal.Location = new Point(240, 315);
-            lblAnimal.Margin = new Padding(4, 0, 4, 0);
+            lblAnimal.Location = new Point(168, 189);
             lblAnimal.Name = "lblAnimal";
-            lblAnimal.Size = new Size(59, 25);
+            lblAnimal.Size = new Size(38, 15);
             lblAnimal.TabIndex = 5;
             lblAnimal.Text = "label1";
+            lblAnimal.Click += lblAnimal_Click;
             // 
             // btnNewName
             // 
-            btnNewName.Location = new Point(240, 196);
-            btnNewName.Margin = new Padding(4);
+            btnNewName.Location = new Point(168, 118);
+            btnNewName.Margin = new Padding(3, 2, 3, 2);
             btnNewName.Name = "btnNewName";
-            btnNewName.Size = new Size(320, 64);
+            btnNewName.Size = new Size(224, 38);
             btnNewName.TabIndex = 4;
             btnNewName.Text = "Renommer";
             btnNewName.UseVisualStyleBackColor = true;
-            btnNewName.Click += new EventHandler(btnNewName_Click);
+            btnNewName.Click += btnNewName_Click;
             // 
             // txtNewName
             // 
-            txtNewName.Location = new Point(240, 114);
-            txtNewName.Margin = new Padding(4);
+            txtNewName.Location = new Point(168, 68);
+            txtNewName.Margin = new Padding(3, 2, 3, 2);
             txtNewName.Name = "txtNewName";
-            txtNewName.Size = new Size(319, 31);
+            txtNewName.Size = new Size(224, 23);
             txtNewName.TabIndex = 3;
+            txtNewName.TextChanged += txtNewName_TextChanged;
             // 
-            // frmEx1
+            // FrmEx1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(560, 270);
             Controls.Add(lblAnimal);
             Controls.Add(btnNewName);
             Controls.Add(txtNewName);
-            Name = "frmEx1";
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "FrmEx1";
             Text = "S6 - Exercice 1 - un Animal";
             ResumeLayout(false);
             PerformLayout();

@@ -10,7 +10,7 @@ namespace serie6_sol_kms
     public partial class FrmEx1 : Form
     {
         ///l'objet de la classe Animal qui est affiché dans ce formulaire (à décommenter quand la classe sera créé)
-        // private Animal _monAnimal;
+        private Animal _monAnimal;
 
         /// <summary>
         /// Initialise les composants du formulaire ainsi que l'animal et le texte du label qui l'affiche
@@ -20,6 +20,7 @@ namespace serie6_sol_kms
             InitializeComponent();
             InitAnimal();
             // TODO : afficher le texte représentant l'animal dans le label
+            lblAnimal.Text = _monAnimal.ToString();
         }
 
         /// <summary>
@@ -27,7 +28,10 @@ namespace serie6_sol_kms
         /// </summary>
         private void InitAnimal()
         {
-            // TODO : initialiser l'animal avec une nouvelle instance "Toto" et un poids aléatoire
+            Random rnd = new Random();
+            int poid = rnd.Next(10, 1001);
+
+            _monAnimal = new Animal("Toto", poid);
         }
 
         /// <summary>
@@ -38,6 +42,21 @@ namespace serie6_sol_kms
         private void btnNewName_Click(object sender, EventArgs e)
         {
             // TODO : changer le nom de l'animal et afficher le texte représentant l'animal dans le label
+
+           var x = txtNewName.Text.ToString();
+
+            _monAnimal.Nom = x;
+            lblAnimal.Text = _monAnimal.ToString();
+        }
+
+        private void lblAnimal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNewName_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
