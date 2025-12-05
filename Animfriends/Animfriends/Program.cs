@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Refuge refuge = new Refuge();
+
+            Chat chat = new Chat("Tete2Bite", "Chat", "Oui svp", 60, 125, 2, "Europeen");
         }
     }
 }

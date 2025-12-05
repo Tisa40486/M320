@@ -31,9 +31,18 @@
         /// </summary>
         /// <param name="nom">Le nom de l'animal</param>
         /// <param name="espece">l'espece de l'animal</param>
-
         public Animal(string nom, string espece): this(nom, espece, "Inconnu", 1, 0, 0)
         { }
-        
+
+
+
+        /// <summary>
+        /// retourne le texte de l'animal
+        /// </summary>
+        /// <returns>le string $"{Nom} ({Espece}, {Sexe}, {Age}mois, {Taille}cm, {Poids}gr) "</returns>
+        public override string ToString()
+        {
+            return $"{Nom} ({Espece}, {Sexe}, {Age}mois, {Taille}cm, {Poids}gr) ";
+        }
     }
 }
